@@ -138,7 +138,7 @@ def game(amount = None):
         turtle.Screen().clear()
         game(amount)
     else:
-        amount //= 2
+        amount //= 5
         output = 'Current amount: $' + str(amount)
         sg.popup('Your turtle lost :(', output)
         turtle.Screen().clear()
